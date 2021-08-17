@@ -329,6 +329,13 @@ main.part-0 {
   display: none;
 }
 
+<<<<<<< Updated upstream
+=======
+.part-1 .contain_right > form > div .oneCard {
+  display: none;
+}
+
+>>>>>>> Stashed changes
 .part-1 section {
   width: 70%;
   margin: auto;
@@ -425,10 +432,15 @@ main.part-0 {
 }
 
 .part-1 .contain_right > form .btn {
+<<<<<<< Updated upstream
+=======
+  display: block;
+>>>>>>> Stashed changes
   background-color: #79ccf2;
   color: #fff;
   border: none;
   border-radius: 5px;
+<<<<<<< Updated upstream
   height: 3em;
   width: 9em;
   float: right;
@@ -436,6 +448,14 @@ main.part-0 {
   text-transform: uppercase;
   text-align: center;
   padding: 16px 0;
+=======
+  height: 2.5em;
+  width: 7em;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 0;
+>>>>>>> Stashed changes
 }
 
 .part-1 #id_delete {
@@ -1313,6 +1333,17 @@ footer > div p span {
     -ms-grid-column-span: 1;
     grid-column: 1/2;
   }
+<<<<<<< Updated upstream
+=======
+  .part-1 > section .contain_right form .custom2 {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+>>>>>>> Stashed changes
   .part-1 > section .contain_right form .add {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
@@ -1330,17 +1361,25 @@ footer > div p span {
     grid-column: 2/3;
   }
   .part-1 > section .contain_right form .date {
+<<<<<<< Updated upstream
     -ms-grid-row: 4;
     -ms-grid-row-span: 1;
     grid-row: 4/5;
+=======
+    grid-row: auto;
+>>>>>>> Stashed changes
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
   }
   .part-1 > section .contain_right form .bySide {
+<<<<<<< Updated upstream
     -ms-grid-row: 5;
     -ms-grid-row-span: 1;
     grid-row: 5/6;
+=======
+    grid-row: auto;
+>>>>>>> Stashed changes
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1/3;
@@ -1348,6 +1387,18 @@ footer > div p span {
   .part-1 > section .platinum {
     display: block;
   }
+<<<<<<< Updated upstream
+=======
+  .part-1 > section .contain_right form {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .part-1 .contain_right > form .btn {
+    float: right;
+    margin: 0;
+  }
+>>>>>>> Stashed changes
   .platinum {
     display: block;
   }
